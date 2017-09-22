@@ -16,7 +16,10 @@
 		FA12E15D1F75A31A00F4ED7C /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E15C1F75A31A00F4ED7C /* GoalCell.swift */; };
 		FA12E15F1F75A92000F4ED7C /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E15E1F75A92000F4ED7C /* GoalType.swift */; };
 		FA12E1611F75ADB400F4ED7C /* addGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E1601F75ADB400F4ED7C /* addGoalVC.swift */; };
-		FA12E1631F75AF2F00F4ED7C /* UIViewControllerEXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E1621F75AF2F00F4ED7C /* UIViewControllerEXT.swift */; };
+		FA12E1631F75AF2F00F4ED7C /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E1621F75AF2F00F4ED7C /* UIViewControllerExt.swift */; };
+		FA12E1651F75B27800F4ED7C /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E1641F75B27800F4ED7C /* UIViewExt.swift */; };
+		FA12E1671F75B55D00F4ED7C /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E1661F75B55D00F4ED7C /* UIButtonExt.swift */; };
+		FA12E1691F75B8BC00F4ED7C /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12E1681F75B8BC00F4ED7C /* FinishGoalVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +34,10 @@
 		FA12E15C1F75A31A00F4ED7C /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		FA12E15E1F75A92000F4ED7C /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
 		FA12E1601F75ADB400F4ED7C /* addGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addGoalVC.swift; sourceTree = "<group>"; };
-		FA12E1621F75AF2F00F4ED7C /* UIViewControllerEXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerEXT.swift; sourceTree = "<group>"; };
+		FA12E1621F75AF2F00F4ED7C /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		FA12E1641F75B27800F4ED7C /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		FA12E1661F75B55D00F4ED7C /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		FA12E1681F75B8BC00F4ED7C /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 			children = (
 				FA12E1451F7310B700F4ED7C /* GoalsVC.swift */,
 				FA12E1601F75ADB400F4ED7C /* addGoalVC.swift */,
+				FA12E1681F75B8BC00F4ED7C /* FinishGoalVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -106,7 +113,9 @@
 		FA12E15B1F73113900F4ED7C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				FA12E1621F75AF2F00F4ED7C /* UIViewControllerEXT.swift */,
+				FA12E1621F75AF2F00F4ED7C /* UIViewControllerExt.swift */,
+				FA12E1641F75B27800F4ED7C /* UIViewExt.swift */,
+				FA12E1661F75B55D00F4ED7C /* UIButtonExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -185,10 +194,13 @@
 			files = (
 				FA12E15D1F75A31A00F4ED7C /* GoalCell.swift in Sources */,
 				FA12E15F1F75A92000F4ED7C /* GoalType.swift in Sources */,
-				FA12E1631F75AF2F00F4ED7C /* UIViewControllerEXT.swift in Sources */,
+				FA12E1631F75AF2F00F4ED7C /* UIViewControllerExt.swift in Sources */,
 				FA12E1461F7310B700F4ED7C /* GoalsVC.swift in Sources */,
+				FA12E1651F75B27800F4ED7C /* UIViewExt.swift in Sources */,
 				FA12E1611F75ADB400F4ED7C /* addGoalVC.swift in Sources */,
 				FA12E1441F7310B700F4ED7C /* AppDelegate.swift in Sources */,
+				FA12E1671F75B55D00F4ED7C /* UIButtonExt.swift in Sources */,
+				FA12E1691F75B8BC00F4ED7C /* FinishGoalVC.swift in Sources */,
 				FA12E14C1F7310B700F4ED7C /* gol_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
