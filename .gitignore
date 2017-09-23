@@ -21,7 +21,7 @@ xcuserdata/
 *.moved-aside
 *.xccheckout
 *.xcscmblueprint
-*.xcworkspace
+*.xcodeproj/project.xcworkspace/xcuserdata/alex.xcuserdatad/UserInterfaceState.xcuserstate
 
 ## Obj-C/Swift specific
 *.hmap
